@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>contact</title>
+
+<style>
+
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family:sans-serif !important;
+    box-sizing: border-box !important;
+}
+
+body {
+    background-color: #191919 !important;
+}
+
+
+
+.container {
+    display: inline !important;
+}
+
+.container-fluid span {
+    color: #f9004d !important;
+}
+
+#main_menu .navbar-nav .nav-item  .nav-link {
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    text-transform: capitalize !important;
+    margin-right: 20px !important;
+}
+
+
+#main_menu .navbar-nav .nav-item  .nav-link:hover{
+    background-color: transparent !important;
+    border: 2px solid #f9004d !important;
+    cursor: pointer !important;
+    border-radius: 7px !important;
+    background: #f9004d !important;
+    color: #FFFDD0 !important;
+    transition: 1.1s !important;
+}
+
+
+#logo {
+	font-size: 40px !important;
+	margin-left: 61px !important;
+	margin-top: -40px !important;
+}
+
+#logo span {
+color: red !important;
+}
+
+
+
+#head{
+    width: 100% !important;
+    height: 75px !important;
+    background: hsl(0, 3%, 71%) !important;
+    margin-bottom: 400px !important;
+}
+
+#head h1{
+    text-align: center !important;
+    font-size: 100px !important;
+    padding-top: 100px !important;
+    color: #FFFFFF !important;
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+
+}
+
+.box {
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 40px !important;
+    display: flex !important;
+   justify-content: center !important;
+   flex-wrap: wrap !important;
+    
+}
+
+.box .child {
+    width: 370px !important;
+    height: 300px !important;
+    background-color: aqua !important;
+    border: 3px solid rgb(243, 220, 220) !important;
+    margin-left: 30px !important;
+    border-radius: 10px !important;
+}
+
+.box .child img{
+    width: 75px !important;
+    height: 75px !important;
+    border-radius: 50% !important;
+    background-color: white !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 20px !important;
+    display: block !important;
+
+}
+
+.box .child p{
+        margin-top: 0 !important;
+        margin-bottom: 1rem !important;
+        margin-top: 45px !important;
+        text-align: center !important;
+        font-weight: bolder !important;
+        font-size: 29px !important;
+}
+
+.form-login{
+    width: 70% !important;
+    height: 540px !important;
+    background-color: blanchedalmond !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 20px !important;
+    border-radius: 40px
+    
+}
+.form-login h2 {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+}
+
+.form-login .btn {
+	margin-left: 41% !important;
+	width: 145px !important;
+	height: 57px !important;
+	background: red !important;
+}
+.form-login .form-control {
+    width: 60% !important;
+    padding: 20px !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+.contact-me{
+    width: 100% !important;
+    height: 290px !important;
+    background: #191919 !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+.contact-me p{
+    color: white !important;
+    font-size: 30px !important;
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+    margin-bottom: 40px !important;
+
+}
+
+.contact-me .button-two {
+    background-color: #f9004d !important;
+    color: white !important;
+    text-decoration: none !important;
+    border: 2px solid transparent !important;
+    font-weight: bolder !important;
+    padding: 9px 22px !important;
+    border-radius: 30px !important;
+    transition: .4s !important;
+}
+
+
+.contact-me .button-two:hover {
+    background-color: transparent !important;
+    border: 2px solid #f9004d !important;
+    cursor: pointer !important;
+}
+
+footer{
+    position: relative !important;
+    width: 100% !important;
+    height: 400px !important;
+    background: #101010 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+}
+
+footer p:nth-child(1){
+    font-size: 30px !important;
+    color: white !important;
+    margin-bottom: 20px !important;
+    font-weight: bold !important;
+
+}
+
+footer p:nth-child(2){
+    color: white !important;
+    font-size: 17px !important;
+    width: 500px !important;
+    text-align: center !important;
+    line-height: 26px !important;
+    font-style:oblique !important;
+}
+
+.social {
+    display: flex !important;
+}
+
+.social a{
+    width: 45px !important;
+    height: 45px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #f9004d !important;
+    border-radius: 50% !important;
+    margin: 22px 10px !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 20px !important;
+
+}
+
+.social a:hover{
+    transform: scale(1.2) !important;
+    transition: .3s !important;
+
+}
+
+.end {
+    position: absolute !important;
+    color: #f9004d !important;
+    bottom: 35px !important;
+    font-size: 14px !important;
+}
+
+
+</style>
+
+</head>
+<body class="bg-dark">
+   
+
+    <nav class="navbar container-fluid navbar-expand-md navbar-light bg-info fixed-top" id="head">
+        <div class="container-fluid bg-info">
+            <a href="./html/newportfolio.html" class="navbar-brand"><img src="image/S.png" alt="" width="40px" height="35px">Portfo<span>lio</span></a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu"><span class="navbar-toggler-icon"></span></button>
+
+            <div id="main_menu" class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="/">home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./aboutme.html">about</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./service.html">Service</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./skils.html">skils</a></li>
+                 
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                    
+                </ul>
+            </div>
+            <form action="" class="d-flex">
+                <input type="search" placeholder="search" class="form-control me-2">
+                <button class="btn btn-danger">search</button>
+            </form>
+        </div>
+       
+    </nav>
+
+
+    <div id="head"> <h1>contact me</h1>
+        
+    </div>
+    <div class="box">
+        <div class="child">
+            <img src="image/phon.png" alt="img">
+            <p> Monday - Friday from <br> 7am - 5pm</p>
+        </div>
+        <div class="child">
+            <img src="image/home.png" alt="">
+            <p>bangladesh,dhaka,<br>tangail,1900</p>
+
+        </div>
+        <div class="child">
+            <img src="image/eml.png" alt="">
+            <p>sagorar58@gmail.com <br>Contact me every time! </p>
+        </div>
+    </div>
+
+
+    <form action="" class="form-login">
+
+
+        <h2>Get In Touch</h2>
+        <input type="text" placeholder="enter your name" class="form-control mb-3" required>
+
+        <input type="email" placeholder="enter your email" class="form-control mb-3">
+
+
+        <div class="form-group">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="enter your message"></textarea>
+          </div>
+        <div class="checkbox mb-3">
+        </div>
+        <button class="btn btn-primary justify-content-center" type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-me">
+        <p>let me get you a beautuful website</p>
+        <a href="./html/hire_me.html" class="button-two"> Hire me </a>
+     </div>
+     <!-- ----------footer section----- -->
+    <footer>
+        <p>sagor chandra das</p>
+        <p>for more HTML,css and coding tutorial - please click on the link below to Subscribe to my channel</p>
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100006381886163"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-telegram"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+        <p class="end">Copyright © 2023 by sagor chandra das</p>
+    </footer>
+
+
+   
+</body>
+</html>

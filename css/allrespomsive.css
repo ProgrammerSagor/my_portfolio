@@ -1,0 +1,214 @@
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+
+    .logo {
+        margin-top: -39px;
+    }
+
+    .btn {
+        width: 120px;
+        height: 40px;
+        margin-top: 330px;
+        margin-right: 146px;
+    }
+    nav {
+        -bottom: 182px;
+    }
+    h1 {
+        font-size: 47px;
+    }
+
+    .contant {
+        margin-top: 200px;
+    }
+
+    .about {
+        height: auto;
+
+    }
+    .about img {
+        margin-top: -1157px;
+        position: relative;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        width: 210px;
+    }
+
+    .about_text {
+        width: 362px;
+        margin-top: 456px;
+        height: 852px;
+        margin-left: -157px;
+        padding: 0px;
+    }
+    .title h2 {
+        font-size: 42px;
+        width: 510px;
+        text-align: center;
+    }
+    .box {
+        display: inherit;
+    }
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-me p {
+        font-size: 23px;
+    }
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media screen and (min-width: 600px) {
+*{
+    margin: 0;
+    padding: 0;
+}
+    .logo {
+        font-size: 23px;
+    }
+    nav ul {
+        display: grid;
+        margin-top: 100px;
+        margin-left: -437px;
+    }
+
+    nav ul li{
+        font-size: 10px;
+    }
+
+    .btn {
+        width: 150px;
+        height: 46px;
+    }
+
+    .contant {
+        margin-top: 247px;
+    }
+    .about img {
+        margin-top: -763px;
+        position: relative;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        width: 210px;
+    }
+    .about {
+        height: 1104px;
+    }
+    .about_text {
+        width: 430px;
+        margin-top: 497px;
+    }
+    .about_text h2 {
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+
+    .about_text h5 {
+        margin-left: -53px;
+    }
+    .about_text p {
+        margin-left: -166px;
+    }
+    .title h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+    .box {
+        display: grid;
+       
+    }
+
+
+
+
+
+
+
+
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media screen and (min-width: 768px) {
+
+    nav ul {
+        display: flex;
+        margin-top: 48px;
+        margin-left: -63px;
+    }
+    .about {
+        width: 100%;
+        height: 780px;
+       padding: 100px 0px;
+       background: #191919;
+    }
+    
+    .about img {
+        height: auto;
+        width: 310px;
+        margin-top: -23px;
+        margin-left: -299px;
+    }
+    
+    .about_text {
+        margin-top: -80px;
+        margin-left: 130px;
+    }
+
+    .box {
+        display: flex;
+    }
+
+
+
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media screen and (min-width: 992px) {
+
+    .logo {
+        margin-left: -59px;
+    }
+
+    nav ul {
+        display: flex;
+        margin-top: -6px;
+        margin-left: 8px;
+    }
+
+
+
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media screen and (min-width: 1200px) {
+    .about {
+        height: 575px;
+    }
+  }
+
+
+
+
+
+
+
+
+  @media screen and (min-width: 1400px) {
+    .hero {
+        width: 71%;;
+    }
+
+    .main {
+        margin-left: 82px;
+    }
+
+    .service {
+        width: 71%;
+    }
+    footer {
+        width: 71%;
+    }
+  }
